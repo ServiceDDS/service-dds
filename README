@@ -2,4 +2,6 @@ ServiceDDS is a framework built on top of DDS (Data Distribution Service) and RT
 
 The project has been recently moved from Sourceforge, and you can still find more information here: http://servicedds.sourceforge.net 
 
-THIS PROJECT IS A RESEARCH PROJECT. IT IS NOT INTENDED FOR PRODUCTION. MOREOVER, SOME OF ITS PARTS ARE STILL NOT FUNCTIONAL.
+IMPORTAN
+
+This is a research project. It is not intended for production. Moreover, some of its parts are not functional yet. However, there are some components and ideas here that worth to be shared among the DDS and RTSJ community.

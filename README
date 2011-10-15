@@ -1,0 +1,3 @@
+ServiceDDS is a framework built on top of DDS (Data Distribution Service) and RTSJ (Real-Time Specification for Java) implementations that allows building real-time peer to peer applications. 
+
+The project has been recently moved from Sourceforge, and you can still find more information here: http://servicedds.sourceforge.net 

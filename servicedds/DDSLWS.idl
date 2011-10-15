@@ -1,0 +1,42 @@
+module DDSLWS {
+
+    const long MAX_NAME = 32;
+    typedef string<MAX_NAME> nameType;
+
+    struct ServiceContractTopicProperty {
+	  string key;
+	  string value;
+    };
+
+    struct ServiceContractTopic {
+        string publisher;         	  // owner of message
+        string serviceName;       	  // service name
+	  sequence<ServiceContractTopicProperty> properties;  // service properties
+
+    };
+#pragma keylist ServiceContractTopic serviceName publisher
+
+    struct ServiceContractTemplateTopic {
+        string requester;             // owner of message
+        string serviceName;           // service name
+	  sequence<ServiceContractTopicProperty> properties;  // service properties
+    };
+#pragma keylist ServiceContractTemplateTopic serviceName requester
+
+    struct OperationInvocationTopic {
+        string invoker;         // owner of message
+        string serviceName;     // service name
+	  string operationName;   // operation name
+    };
+#pragma keylist OperationInvocationTopic serviceName operationName invoker
+
+    struct OperationResultTopic {
+        string source;          // owner of message
+        string serviceName;     // service name
+	  string operationName;   // operation name
+	  string result; // PROVISIONAL
+    };
+#pragma keylist OperationResultTopic serviceName operationName source
+
+
+};

@@ -10,5 +10,5 @@ This is a research project. It is not intended for production. Moreover, some of
 
 ## Citation
 
-[1] J. A. Dianes, M. Díaz, B. Rubio "Using standards to integrate soft real-time components into dynamic p2p distributed architectures" in Computer Standards and Interfaces, Elsevier 2011 [here](http://www.sciencedirect.com/science/article/pii/S0920548911000894)   
-[2] J. A. Dianes, M. Díaz, B. Rubio "ServiceDDS: A framework for real-time P2P systems integration" in 2010 13th IEEE International Symposium on Object/Component/Service-Oriented Real-Time Distributed Computing (ISORC 2010), Carmona (Spain). [here](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5479549) 
+* J. A. Dianes, M. Díaz, B. Rubio "Using standards to integrate soft real-time components into dynamic p2p distributed architectures" in Computer Standards and Interfaces, Elsevier 2011 [here](http://www.sciencedirect.com/science/article/pii/S0920548911000894)   
+* J. A. Dianes, M. Díaz, B. Rubio "ServiceDDS: A framework for real-time P2P systems integration" in 2010 13th IEEE International Symposium on Object/Component/Service-Oriented Real-Time Distributed Computing (ISORC 2010), Carmona (Spain). [here](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5479549) 
